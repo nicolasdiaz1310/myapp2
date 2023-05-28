@@ -1,0 +1,56 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.menu li,a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menu .submenu {
+  display: none;
+  margin-left: 10px;
+  list-style-type: none;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+.menu li:hover{
+  background: #5e5959;
+}
+body{
+  background-repeat: no-repeat;
+  height: 235vh; /* El fondo ocupará el 100% del viewport height */
+  background-size: cover; /* La imagen se ajustará al tamaño del contenedor */
+  
+}
+a:hover{
+  transition: all 1s;
+  transform: scale(1.2);
+}
+.sidebar .Rsociales{
+  padding-left: 10%;
+  padding-top: 275%;
+  display: flex;
+  align-items: center;
+}
+.sidebar .logo{
+  padding-bottom: 40%;
+  width: 90%;
+  padding-left: 8%;
+}

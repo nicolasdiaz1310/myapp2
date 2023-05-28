@@ -1,0 +1,81 @@
+/*Barra de navegación*/
+.barra-lateral {
+  background-color: #000000;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}.barra-lateral img{
+  padding-left: 5%;
+  width: 90%;
+  padding-bottom: 20%;
+}
+.barra-lateral .Rsociales{
+  padding-left: 10%;
+  width: 10%;
+  padding-top: 200%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.lista {
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20%;
+}
+
+.item {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.item:hover {
+  background-color: #404040;
+}
+
+/*Body*/
+body{
+  background-image: url("./assets/img/fondo2.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh; /* El fondo ocupará el 100% del viewport height */
+  background-size: cover; /* La imagen se ajustará al tamaño del contenedor */
+  
+}
+/*Cajas de comidas*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: #000;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+}

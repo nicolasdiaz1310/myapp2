@@ -1,0 +1,33 @@
+/*Barra de navegación*/
+.barra-lateral {
+    background-color: #000000;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }.barra-lateral img{
+    padding-left: 8%;
+    width: 90%;
+    padding-bottom: 20%;
+  }
+
+  .lista {
+    color: #ffffff;
+    list-style-type: none;
+    padding-left: 20%;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+  }  
+  .barra-lateral .Rsociales{
+    padding-left: 10%;
+    width: 10%;
+    padding-top: 200%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
